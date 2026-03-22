@@ -15,7 +15,7 @@ const HeroSection = () => {
           playsInline
           preload="auto"
           className="w-full h-full object-cover"
-          src="/Elysian Edge AD.mp4"
+          src="Elysian Edge AD.mp4"
         />
         <div className="absolute inset-0 bg-background/70" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background" />
