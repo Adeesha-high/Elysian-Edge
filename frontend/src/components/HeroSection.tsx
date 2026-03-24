@@ -48,9 +48,9 @@ const HeroSection = () => {
               href="#gallery"
               className="border border-primary/40 text-primary font-body font-semibold px-8 py-4 text-sm tracking-widest uppercase hover:bg-primary/10 transition-all duration-300 rounded-sm"
             >
-              <Button variant="outline" className="text-white border-white">
+              
               View Our Work
-              </Button>
+              
             </a>
           </div>
         </motion.div>
