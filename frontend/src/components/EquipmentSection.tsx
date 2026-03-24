@@ -42,7 +42,7 @@ const EquipmentSection = () => {
               initial={{ opacity: 0, scale: 1.0 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.06 }}
+              transition={{ duration: 0.4, delay: i * 0.10 }}
               className="flex items-center justify-center p-6 border border-border rounded-sm bg-card hover:border-primary/30 transition-all duration-300 aspect-[3/2]"
             >
               <img
