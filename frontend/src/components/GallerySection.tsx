@@ -17,7 +17,7 @@ import gallery14 from "@/assets/gallery-14.jpeg";
 import gallery15 from "@/assets/gallery-15.jpeg";
 import gallery16 from "@/assets/gallery-16.jpeg";
 import gallery17 from "@/assets/gallery-17.jpeg";
-import gallery18 from "@/assets/gallery-18.jpeg";
+
 
 const topRow = [gallery1, gallery2, gallery3, gallery4, gallery5,gallery6, gallery7, gallery8, gallery9];
 const bottomRow = [gallery10, gallery11, gallery12, gallery13, gallery14,gallery15, gallery16, gallery17, gallery18];
