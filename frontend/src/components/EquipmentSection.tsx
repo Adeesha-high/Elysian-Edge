@@ -40,7 +40,7 @@ const EquipmentSection = () => {
             <motion.div
               key={client.name}
               initial={{ opacity: 0, scale: 1.5 }}
-              whileInView={{ opacity: 1, scale: 1 }}
+              whileInView={{ opacity: 1, scale: 2 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
               className="flex items-center justify-center p-6 border border-border rounded-sm bg-card hover:border-primary/30 transition-all duration-300 aspect-[3/2]"
