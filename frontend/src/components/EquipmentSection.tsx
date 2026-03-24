@@ -39,10 +39,10 @@ const EquipmentSection = () => {
           {clients.map((client, i) => (
             <motion.div
               key={client.name}
-              initial={{ opacity: 0, scale: 1.5 }}
-              whileInView={{ opacity: 1, scale: 2 }}
+              initial={{ opacity: 0, scale: 1.0 }}
+              whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.08 }}
+              transition={{ duration: 0.4, delay: i * 0.06 }}
               className="flex items-center justify-center p-6 border border-border rounded-sm bg-card hover:border-primary/30 transition-all duration-300 aspect-[3/2]"
             >
               <img
