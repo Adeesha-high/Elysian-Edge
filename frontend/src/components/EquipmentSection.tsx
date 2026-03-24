@@ -39,7 +39,7 @@ const EquipmentSection = () => {
           {clients.map((client, i) => (
             <motion.div
               key={client.name}
-              initial={{ opacity: 0, scale: 0.9 }}
+              initial={{ opacity: 0, scale: 1.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
