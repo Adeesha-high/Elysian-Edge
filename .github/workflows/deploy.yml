@@ -29,9 +29,11 @@ jobs:
 
       - name: Install deps
         run: npm ci
+        working-directory: ./frontend
 
       - name: Build
         run: npm run build
+        working-directory: ./frontend
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -39,7 +41,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./frontend/dist
 
       - name: Deploy to GitHub Pages
         id: deployment
