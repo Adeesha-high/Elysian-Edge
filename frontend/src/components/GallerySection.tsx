@@ -57,7 +57,7 @@ const MarqueeRow = ({
           x: {
             repeat: Infinity,
             repeatType: "loop",
-            duration: 30,
+            duration: 80,
             ease: "linear",
           },
         }}
