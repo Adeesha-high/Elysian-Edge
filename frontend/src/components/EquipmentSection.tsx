@@ -6,8 +6,6 @@ import clientJohnpiper from "@/assets/client-johnpiper.png";
 import clientKelaniya from "@/assets/client-kelaniya.jpg";
 import clientNibm from "@/assets/client-nibm.jpg";
 import clientUok from "@/assets/client-uok.png";
-import clientRotrackUok from "@/assets/client-rotrack-uok.png";
-import clientAiesecUok from "@/assets/client-aiesec-uok.png";
 
 const clients = [
   { name: "CISC", logo: clientCisc },
@@ -17,8 +15,6 @@ const clients = [
   { name: "University of Kelaniya", logo: clientKelaniya },
   { name: "NIBM", logo: clientNibm },
   { name: "UOK", logo: clientUok },
-  { name: "Rotrack UOK", logo: clientRotrackUok },
-  { name: "AIESEC UOK", logo: clientAiesecUok },
 ];
 
 const EquipmentSection = () => {
@@ -55,9 +51,7 @@ const EquipmentSection = () => {
                 className={`max-w-full object-contain filter brightness-90 hover:brightness-110 transition-all duration-300 ${
                   client.name === "Dothanyard" ||
                   client.name === "John Piper International" ||
-                  client.name === "UOK" ||
-                  client.name === "Rotrack UOK" ||
-                  client.name === "AIESEC UOK"
+                  client.name === "UOK"
                     ? "max-h-20"
                     : "max-h-24"
                 }`}
