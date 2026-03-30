@@ -17,7 +17,8 @@ const clients = [
   { name: "University of Kelaniya", logo: clientKelaniya },
   { name: "NIBM", logo: clientNibm },
   { name: "UOK", logo: clientUok },
- 
+  { name: "Rotrack UOK", logo: clientRotrackUok },
+  { name: "AIESEC UOK", logo: clientAiesecUok },
 ];
 
 const EquipmentSection = () => {
@@ -54,7 +55,9 @@ const EquipmentSection = () => {
                 className={`max-w-full object-contain filter brightness-90 hover:brightness-110 transition-all duration-300 ${
                   client.name === "Dothanyard" ||
                   client.name === "John Piper International" ||
-                  client.name === "UOK"
+                  client.name === "UOK" ||
+                  client.name === "Rotrack UOK" ||
+                  client.name === "AIESEC UOK"
                     ? "max-h-20"
                     : "max-h-24"
                 }`}
