@@ -20,7 +20,6 @@ import gallery17 from "@/assets/gallery-17.jpeg";
 import gallery18 from "@/assets/gallery-18.jpeg";
 import gallery19 from "@/assets/gallery-19.jpeg";
 import gallery20 from "@/assets/gallery-20.jpeg";
-import gallery21 from "@/assets/gallery-21.jpeg";
 import gallery22 from "@/assets/gallery-22.jpeg";
 import gallery23 from "@/assets/gallery-23.jpeg";
 import gallery24 from "@/assets/gallery-24.jpeg";
@@ -32,7 +31,7 @@ import gallery29 from "@/assets/gallery-29.jpeg";
 import gallery30 from "@/assets/gallery-30.jpeg";
 
 
-const topRow = [gallery1, gallery2, gallery3, gallery4, gallery5,gallery6, gallery7, gallery8, gallery9,gallery20, gallery21, gallery22, gallery23,gallery24];
+const topRow = [gallery1, gallery2, gallery3, gallery4, gallery5,gallery6, gallery7, gallery8, gallery9,gallery20, gallery22, gallery23,gallery24];
 const bottomRow = [gallery10,gallery11,gallery12, gallery13, gallery14,gallery15,gallery16,gallery17,gallery19,gallery25,gallery29,gallery27,gallery28,gallery26,gallery30];
 
 
