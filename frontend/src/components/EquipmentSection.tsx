@@ -6,6 +6,8 @@ import clientJohnpiper from "@/assets/client-johnpiper.png";
 import clientKelaniya from "@/assets/client-kelaniya.jpg";
 import clientNibm from "@/assets/client-nibm.jpg";
 import clientUok from "@/assets/client-uok.png";
+import clientUok1 from "@/assets/AIESEC UOK.png";
+import clientUok2 from "@/assets/Rotract UOK.png";
 
 const clients = [
   { name: "CISC", logo: clientCisc },
@@ -15,6 +17,8 @@ const clients = [
   { name: "University of Kelaniya", logo: clientKelaniya },
   { name: "NIBM", logo: clientNibm },
   { name: "UOK", logo: clientUok },
+  { name: "AIESEC UOK", logo: clientUok1 },
+  { name: "Rotract UOK", logo: clientUok2 }
 ];
 
 const EquipmentSection = () => {
