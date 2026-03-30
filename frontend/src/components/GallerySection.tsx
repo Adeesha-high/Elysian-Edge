@@ -33,7 +33,8 @@ import gallery30 from "@/assets/gallery-30.jpg";
 
 
 const topRow = [gallery1, gallery2, gallery3, gallery4, gallery5,gallery6, gallery7, gallery8, gallery9,gallery20, gallery21, gallery22, gallery23,gallery24];
-const bottomRow = [gallery10,gallery11,gallery12, gallery13, gallery14,gallery15,gallery16,gallery17,gallery18,gallery19,gallery25,gallery26,gallery27,gallery28,gallery29,gallery30];
+const bottomRow = [gallery10,gallery11,gallery12, gallery13, gallery14,gallery15,gallery16,gallery17];
+const bottomRow2=[gallery18,gallery19,gallery25,gallery26,gallery27,gallery28,gallery29,gallery30];
 
 const MarqueeRow = ({
   images,
