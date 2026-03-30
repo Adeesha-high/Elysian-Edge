@@ -17,8 +17,7 @@ const clients = [
   { name: "University of Kelaniya", logo: clientKelaniya },
   { name: "NIBM", logo: clientNibm },
   { name: "UOK", logo: clientUok },
-  { name: "Rotrack UOK", logo: clientRotrackUok },
-  { name: "AIESEC UOK", logo: clientAiesecUok },
+ 
 ];
 
 const EquipmentSection = () => {
