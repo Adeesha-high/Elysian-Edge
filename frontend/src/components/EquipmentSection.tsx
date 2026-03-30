@@ -17,8 +17,6 @@ const clients = [
   { name: "University of Kelaniya", logo: clientKelaniya },
   { name: "NIBM", logo: clientNibm },
   { name: "UOK", logo: clientUok },
-  { name: "AIESEC UOK", logo: clientUok1 },
-  { name: "Rotract UOK", logo: clientUok2 }
 ];
 
 const EquipmentSection = () => {
@@ -47,13 +45,18 @@ const EquipmentSection = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.10 }}
-              className="flex items-center justify-center p-6 bg-card/50 border rounded-lg shadow-sm hover:shadow-md transition-all duration-300 h-[200px]"
-              style={{ borderColor: "rgba(255, 255, 255, 0.08)" }}
+              className="flex items-center justify-center p-6 border border-border rounded-sm bg-card hover:border-primary/30 transition-all duration-300 aspect-[3/2]"
             >
               <img
                 src={client.logo}
                 alt={client.name}
-                className="max-h-20 max-w-[70%] object-contain filter brightness-90 hover:brightness-110 transition-all duration-300"
+                className={`max-w-full object-contain filter brightness-90 hover:brightness-110 transition-all duration-300 ${
+                  client.name === "Dothanyard" ||
+                  client.name === "John Piper International" ||
+                  client.name === "UOK"
+                    ? "max-h-20"
+                    : "max-h-24"
+                }`}
               />
             </motion.div>
           ))}
