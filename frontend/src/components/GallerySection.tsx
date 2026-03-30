@@ -10,17 +10,10 @@ import gallery7 from "@/assets/gallery-7.jpg";
 import gallery8 from "@/assets/gallery-8.jpg";
 import gallery9 from "@/assets/gallery-9.jpg";
 import gallery10 from "@/assets/gallery-10.jpg";
-import gallery11 from "@/assets/gallery-11.jpg";
-import gallery12 from "@/assets/gallery-12.jpg";
-import gallery13 from "@/assets/gallery-13.jpeg";
-import gallery14 from "@/assets/gallery-14.jpeg";
-import gallery15 from "@/assets/gallery-15.jpeg";
-import gallery16 from "@/assets/gallery-16.jpeg";
-import gallery17 from "@/assets/gallery-17.jpeg";
-import gallery18 from "@/assets/gallery-18.jpeg";
+
 
 const topRow = [gallery1, gallery2, gallery3, gallery4, gallery5,gallery6, gallery7, gallery8, gallery9];
-const bottomRow = [gallery10, gallery11, gallery12, gallery13, gallery14,gallery15, gallery16, gallery17, gallery18];
+const bottomRow = [gallery10, ];
 
 const MarqueeRow = ({
   images,
